@@ -19,17 +19,17 @@ let currentWeather = async (city) => {
     document.querySelector(".humidity").innerHTML = data.main.humidity + `%`;
     document.querySelector(".wind").innerHTML = data.wind.speed + ` km/h`;
     if (data.weather[0].main == "Clouds") {
-      weatherImage.src = "images/clouds.png";
+      weatherImage.src = "./images/clouds.png";
     } else if (data.weather[0].main == "Clear") {
-      weatherImage.src = "images/Clear.png";
+      weatherImage.src = "./images/Clear.png";
     } else if (data.weather[0].main == "Drizzle") {
-      weatherImage.src = "images/drizzle.png";
+      weatherImage.src = "./images/drizzle.png";
     } else if (data.weather[0].main == "Mist") {
-      weatherImage.src = "images/mist.png";
+      weatherImage.src = "./images/mist.png";
     } else if (data.weather[0].main == "Rain") {
-      weatherImage.src = "images/rain.png";
+      weatherImage.src = "./images/rain.png";
     } else if (data.weather[0].main == "Snow") {
-      weatherImage.src = "images/snow.png";
+      weatherImage.src = "./images/snow.png";
     }
     document.querySelector(".error").style.display = "none";
     document.querySelector(".weather").style.display = "block";
