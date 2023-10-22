@@ -7,7 +7,7 @@
 @media screen and (max-width: 680px) {
   .search button {
     width: 10px;
-    border-radius
+    margin-right: 5px;
   }
 
   .weather h1 {
