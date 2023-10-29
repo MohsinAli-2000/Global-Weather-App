@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 680px) {
   .search button {
-    width: 10px;
+    width: 30px;
     margin-right: 5px;
   }
   .search input{
