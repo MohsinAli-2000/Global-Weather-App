@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Global Weather - App</title>
-    <link rel="shortcut icon" href="images/clouds.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="core">
-      <div class="search">
-        <input type="text" placeholder="Enter city name" spellcheck="false" />
-        <button><img src="images/search.png" alt="Search" /></button>
-      </div>
-      <div class="error">
-        Invalid City Name!
-      </div>
-      <div class="weather">
-        <img src="images/clouds.png" alt="Weather-Image" class="weather-icon" />
-        <h1 class="temp">0°C</h1>
-        <h2 class="city">City</h2>
-      </div>
-      <div class="details">
-        <div class="col">
-          <img src="images/humidity.png" alt="humidity-image" />
-          <div>
-            <p class="humidity">00%</p>
-            <p>Humidity</p>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Weather - App</title>
+  <link rel="shortcut icon" href="images/clouds.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="core">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button><img src="images/search.png" alt="Search"></button>
+    </div>
+    <div class="error">Invalid City Name!</div>
+    <div class="weather">
+      <img src="images/clouds.png" alt="Weather-Image" class="weather-icon">
+      <h1 class="temp">0°C</h1>
+      <h2 class="city">City</h2>
+    </div>
+    <div class="details">
+      <div class="col">
+        <img src="images/humidity.png" alt="humidity-image">
+        <div>
+          <p class="humidity">00% Humidity</p>
         </div>
-        <div class="col">
-          <img src="images/wind.png" alt="wind-image" />
-          <div>
-            <p class="wind">00%</p>
-            <p>Wind Speed</p>
-          </div>
+      </div>
+      <div class="col">
+        <img src="images/wind.png" alt="wind-image">
+        <div>
+          <p class="wind">00%</          <p>Wind Speed</p>
         </div>
       </div>
     </div>
-
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
